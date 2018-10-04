@@ -41,14 +41,33 @@ header .text-box-1{
     margin: 20px 10% 10px 12%;
     width: 70%;
 }
-section{
+.parallax{
+    /* The image used */
+    background-image:  url("study.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.academic{
     margin: 0;
     padding: 50px 0 50px 0;
-    background-color: #F1FE6E;
     width: 100%;
 }
-section .text-box-1{
-    background-color: #FE5F55;
+.academic .text-box-1{
+    border: solid 1px #fff;
+}
+.transparent{
+    background-color: rgba(0,0,0,0.5);
+    margin: -50px 0 -50px 0;
+    padding: 50px 0 50px 0;
+    width: 100%;
+    height: 100%;
 }
 .about{
     margin-left: 10%;
@@ -63,6 +82,7 @@ section p{
 section h1{
     color: #FFFFFF;
     background-color: #FE5F55;
+    border: 1px solid #fff;
     display: inline-block;
     padding: 10px;
     margin: 0 10% 0 0;
@@ -78,4 +98,17 @@ footer h1{
     margin: 0 10% 0 10%;
     color: #FFFFFF;
     display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+li{
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    background-color: #d8453c;
 }
