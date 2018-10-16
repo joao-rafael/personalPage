@@ -10,10 +10,14 @@ header{
 }
 .title{
     color: #FFFFFF;
-    margin: auto;
-    background-color: #307ECB;
-    text-align: center;
+    margin: 0 10% 0 10%;
+    display: inline-block;
     display: block;
+}
+.title-icon{
+    background: #F1FE6E;
+    padding: 10px;
+    
 }
 header h1{
     margin: 0 10% 0 10%;
@@ -79,7 +83,7 @@ section p{
     padding-left: 10%;
     
 }
-section h1{
+section h2{
     color: #FFFFFF;
     background-color: #FE5F55;
     border: 1px solid #fff;
@@ -94,7 +98,7 @@ footer{
     height: 300px;
     padding: 50px 0 50px 0;
 }
-footer h1{
+footer h2{
     margin: 0 10% 0 10%;
     color: #FFFFFF;
     display: inline-block;
