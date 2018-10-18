@@ -1,33 +1,27 @@
+/*Body and essential parts of the page*/
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-
 header{
     background-color: #307ECB;
     padding: 50px 0 50px 0;
 }
-.title{
-    color: #FFFFFF;
-    margin: 0 10% 0 10%;
-    display: inline-block;
-    display: block;
+footer{
+    background-color: #FE5F55;
+    width: 100%;
+    height: 300px;
+    padding: 50px 0 50px 0;
 }
-.title-icon{
-    background: #F1FE6E;
-    padding: 10px;
-    
-}
-header h1{
-    margin: 0 10% 0 10%;
-    display: inline-block;
-    color: #707070;
-    background-color: #F1FE6E;
-    padding: 10px;
-}
-figure{
-    
+/*Images and backgrounds*/
+.parallax{
+    background-image:  url("study.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .profile{
     margin: 0 40% 0 40%;
@@ -36,33 +30,7 @@ figure{
     border: 3px solid white;
     border-radius: 200px;
 }
-header .text-box-1{
-    background-color: #3373B1;
-}
-.text-box-1{
-    color: #FFFFFF;
-    padding: 20px;
-    margin: 20px 10% 10px 12%;
-    width: 70%;
-}
-.parallax{
-    /* The image used */
-    background-image:  url("study.jpg");
 
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.academic{
-    margin: 0;
-    padding: 50px 0 50px 0;
-    width: 100%;
-}
 .academic .text-box-1{
     border: solid 1px #fff;
 }
@@ -73,30 +41,78 @@ header .text-box-1{
     width: 100%;
     height: 100%;
 }
-.about{
-    margin-left: 10%;
+.projects{
+    background-image: url("bricks.jpg");
+    padding-bottom: 10px;
+}
+/*Text box, text style and titles*/
+.title{
+    margin: 0 10% 0 10%;
+    display: inline-block;
+    display: block;
+}
+header h1{
+    margin: 0 10% 0 10%;
+    display: inline-block;
+    color: #707070;
+    background-color: #F1FE6E;
+    padding: 10px;
+}
+header .text-box-1{
+    background-color: #3373B1;
+}
+.text-box-1{
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 20px 10% 10px 12%;
+    width: 70%;
 }
 section p{
     font-size: 18px;
     text-align: justify;
     width: 80%;
-    padding-left: 10%;
-    
+    padding-left: 10%;   
 }
-section h2{
+.academic h2{
     color: #FFFFFF;
     background-color: #FE5F55;
     border: 1px solid #fff;
     display: inline-block;
     padding: 10px;
-    margin: 0 10% 0 0;
     font-weight: bold;
 }
-footer{
-    background-color: #FE5F55;
-    width: 100%;
-    height: 300px;
-    padding: 50px 0 50px 0;
+.academic .text-box-1 h2{
+    margin: 0 10% 0 0;
+}
+.separate-title{
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    height: 50px;
+    padding: 5px 0 0 0 5px;
+    color: #fff;
+}
+.about-title{
+    display: inline-block;
+    margin: 0 0 0 10%;
+}
+.projects .text-box-1{
+    background-color: rgba(0,0,0,0.5);
+    border: 1px #fff solid;
+}
+.span1{
+    padding: 5px;
+    border: 1px #fff solid;
+    display: inline-block;
+    margin-top: 5px;
+    background-color: #F2994A;
+}
+.ongoing{
+    background-image: linear-gradient(#11998e, #38ef7d);
+}
+.paused{
+    background-image: linear-gradient(#F2994A, #F2C94C);
 }
 footer h2{
     margin: 0 10% 0 10%;
